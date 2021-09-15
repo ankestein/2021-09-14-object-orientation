@@ -1,6 +1,6 @@
 package model;
 
-public class Student {
+abstract class Student {
 
     private int id;
     private String name;
@@ -21,4 +21,7 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    // abstract method
+    public abstract int getNumberOfModules();
 }
